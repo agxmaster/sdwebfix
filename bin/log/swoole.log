@@ -1,0 +1,125 @@
+[2017-12-30 20:08:27 $6933.0]	NOTICE	Server is reloading now.
+[2017-12-30 20:08:29 $6933.0]	NOTICE	Server is reloading now.
+[2017-12-30 20:48:11 $6933.0]	NOTICE	Server is reloading now.
+[2017-12-30 20:50:52 $6933.0]	NOTICE	Server is reloading now.
+[2017-12-30 20:50:52 $6933.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-12-30 22:00:20 *12704.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined function imagecreatetruecolor() in /var/www/html/github/sdweb/vendor/jianghua/swooledistributedweb/src/Web/Helpers/Libs/Checkcode.php:74
+Stack trace:
+#0 /var/www/html/github/sdweb/src/app/Controllers/Pub.php(48): Web\Helpers\Libs\Checkcode->doimage()
+#1 [internal function]: app\Controllers\Pub->checkcode()
+#2 /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/Components/AOP/Proxy.php(31): call_user_func_array
+[2017-12-30 22:00:20 $12692.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-12-30 22:00:41 *12705.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: Connection timed out in /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/Asyn/Mysql/MysqlAsynPool.php:207
+Stack trace:
+#0 [internal function]: Server\Asyn\Mysql\MysqlAsynPool->Server\Asyn\Mysql\{closure}(Object(swoole_mysql), false)
+#1 /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(76): swoole_http_server->start()
+#2 /var/www/html/github/sdweb/vendor/t
+[2017-12-30 22:00:41 $12692.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-12-30 22:00:46 *12706.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined function imagecreatetruecolor() in /var/www/html/github/sdweb/vendor/jianghua/swooledistributedweb/src/Web/Helpers/Libs/Checkcode.php:74
+Stack trace:
+#0 /var/www/html/github/sdweb/src/app/Controllers/Pub.php(48): Web\Helpers\Libs\Checkcode->doimage()
+#1 [internal function]: app\Controllers\Pub->checkcode()
+#2 /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/Components/AOP/Proxy.php(31): call_user_func_array
+[2017-12-30 22:00:46 $12692.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-12-30 22:03:29 *13351.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: Connection timed out in /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/Asyn/Mysql/MysqlAsynPool.php:207
+Stack trace:
+#0 [internal function]: Server\Asyn\Mysql\MysqlAsynPool->Server\Asyn\Mysql\{closure}(Object(swoole_mysql), false)
+#1 /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(76): swoole_http_server->start()
+#2 /var/www/html/github/sdweb/vendor/t
+[2017-12-30 22:03:29 $13340.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-12-30 22:03:39 *13352.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: Connection timed out in /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/Asyn/Mysql/MysqlAsynPool.php:207
+Stack trace:
+#0 [internal function]: Server\Asyn\Mysql\MysqlAsynPool->Server\Asyn\Mysql\{closure}(Object(swoole_mysql), false)
+#1 /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(76): swoole_http_server->start()
+#2 /var/www/html/github/sdweb/vendor/t
+[2017-12-30 22:03:39 $13340.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-12-30 22:07:03 *13360.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: Connection timed out in /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/Asyn/Mysql/MysqlAsynPool.php:207
+Stack trace:
+#0 [internal function]: Server\Asyn\Mysql\MysqlAsynPool->Server\Asyn\Mysql\{closure}(Object(swoole_mysql), false)
+#1 /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(76): swoole_http_server->start()
+#2 /var/www/html/github/sdweb/vendor/t
+[2017-12-30 22:07:03 $13340.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-12-30 22:10:34 *13848.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: Connection timed out in /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/Asyn/Mysql/MysqlAsynPool.php:207
+Stack trace:
+#0 [internal function]: Server\Asyn\Mysql\MysqlAsynPool->Server\Asyn\Mysql\{closure}(Object(swoole_mysql), false)
+#1 /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(76): swoole_http_server->start()
+#2 /var/www/html/github/sdweb/vendor/t
+[2017-12-30 22:10:34 $13837.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-12-30 22:15:24 *14108.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: Host '127.0.0.1' is not allowed to connect to this MySQL server in /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/Asyn/Mysql/MysqlAsynPool.php:207
+Stack trace:
+#0 [internal function]: Server\Asyn\Mysql\MysqlAsynPool->Server\Asyn\Mysql\{closure}(Object(swoole_mysql), false)
+#1 /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(76): swoole_http_server->sta
+[2017-12-30 22:15:24 $14097.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-12-30 22:24:00 *14835.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: Host '127.0.0.1' is not allowed to connect to this MySQL server in /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/Asyn/Mysql/MysqlAsynPool.php:207
+Stack trace:
+#0 [internal function]: Server\Asyn\Mysql\MysqlAsynPool->Server\Asyn\Mysql\{closure}(Object(swoole_mysql), false)
+#1 /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(76): swoole_http_server->sta
+[2017-12-30 22:24:00 $14824.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-12-30 22:26:10 *14910.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: Host '127.0.0.1' is not allowed to connect to this MySQL server in /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/Asyn/Mysql/MysqlAsynPool.php:207
+Stack trace:
+#0 [internal function]: Server\Asyn\Mysql\MysqlAsynPool->Server\Asyn\Mysql\{closure}(Object(swoole_mysql), false)
+#1 /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(76): swoole_http_server->sta
+[2017-12-30 22:26:10 $14899.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-12-30 22:29:20 *15342.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: Host '127.0.0.1' is not allowed to connect to this MySQL server in /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/Asyn/Mysql/MysqlAsynPool.php:207
+Stack trace:
+#0 [internal function]: Server\Asyn\Mysql\MysqlAsynPool->Server\Asyn\Mysql\{closure}(Object(swoole_mysql), false)
+#1 /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(76): swoole_http_server->sta
+[2017-12-30 22:29:20 $15331.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-12-30 22:37:23 *15716.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: Host '127.0.0.1' is not allowed to connect to this MySQL server in /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/Asyn/Mysql/MysqlAsynPool.php:207
+Stack trace:
+#0 [internal function]: Server\Asyn\Mysql\MysqlAsynPool->Server\Asyn\Mysql\{closure}(Object(swoole_mysql), false)
+#1 /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(76): swoole_http_server->sta
+[2017-12-30 22:37:23 $15705.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-12-30 22:38:32 *15826.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: Host '127.0.0.1' is not allowed to connect to this MySQL server in /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/Asyn/Mysql/MysqlAsynPool.php:207
+Stack trace:
+#0 [internal function]: Server\Asyn\Mysql\MysqlAsynPool->Server\Asyn\Mysql\{closure}(Object(swoole_mysql), false)
+#1 /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(76): swoole_http_server->sta
+[2017-12-30 22:38:32 $15815.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-12-30 22:40:31 *16158.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: Host '127.0.0.1' is not allowed to connect to this MySQL server in /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/Asyn/Mysql/MysqlAsynPool.php:207
+Stack trace:
+#0 [internal function]: Server\Asyn\Mysql\MysqlAsynPool->Server\Asyn\Mysql\{closure}(Object(swoole_mysql), false)
+#1 /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(76): swoole_http_server->sta
+[2017-12-30 22:40:31 $16147.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-12-30 22:46:18 *16714.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: Host '127.0.0.1' is not allowed to connect to this MySQL server in /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/Asyn/Mysql/MysqlAsynPool.php:207
+Stack trace:
+#0 [internal function]: Server\Asyn\Mysql\MysqlAsynPool->Server\Asyn\Mysql\{closure}(Object(swoole_mysql), false)
+#1 /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(76): swoole_http_server->sta
+[2017-12-30 22:46:18 $16703.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-12-30 22:47:30 *16846.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: Host '127.0.0.1' is not allowed to connect to this MySQL server in /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/Asyn/Mysql/MysqlAsynPool.php:207
+Stack trace:
+#0 [internal function]: Server\Asyn\Mysql\MysqlAsynPool->Server\Asyn\Mysql\{closure}(Object(swoole_mysql), false)
+#1 /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(76): swoole_http_server->sta
+[2017-12-30 22:47:30 $16835.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-12-30 22:50:04 *16978.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: Host '127.0.0.1' is not allowed to connect to this MySQL server in /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/Asyn/Mysql/MysqlAsynPool.php:207
+Stack trace:
+#0 [internal function]: Server\Asyn\Mysql\MysqlAsynPool->Server\Asyn\Mysql\{closure}(Object(swoole_mysql), false)
+#1 /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(76): swoole_http_server->sta
+[2017-12-30 22:50:04 $16967.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-12-30 22:54:55 *17233.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: Host '127.0.0.1' is not allowed to connect to this MySQL server in /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/Asyn/Mysql/MysqlAsynPool.php:207
+Stack trace:
+#0 [internal function]: Server\Asyn\Mysql\MysqlAsynPool->Server\Asyn\Mysql\{closure}(Object(swoole_mysql), false)
+#1 /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(76): swoole_http_server->sta
+[2017-12-30 22:54:55 $17222.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-12-30 23:00:38 *17719.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: Host '192.168.2.150' is not allowed to connect to this MySQL server in /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/Asyn/Mysql/MysqlAsynPool.php:207
+Stack trace:
+#0 [internal function]: Server\Asyn\Mysql\MysqlAsynPool->Server\Asyn\Mysql\{closure}(Object(swoole_mysql), false)
+#1 /var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(76): swoole_http_server-
+[2017-12-30 23:00:38 $17708.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-12-30 23:21:20 $18594.0]	NOTICE	Server is reloading now.
+[2017-12-30 23:21:44 $18757.0]	NOTICE	Server is reloading now.
+[2017-12-30 23:22:48 $18757.0]	NOTICE	Server is reloading now.
+[2017-12-30 23:23:11 $18757.0]	NOTICE	Server is reloading now.
+[2017-12-30 23:51:19 $20185.0]	NOTICE	Server is reloading now.
+[2017-12-30 23:52:43 $20300.0]	NOTICE	Server is reloading now.
+[2017-12-30 23:53:03 *20421.0]	WARNING	swArray_extend: max page_num is 1024
+[2017-12-30 23:53:03 $20410.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=0, signal=11
+[2017-12-30 23:53:22 $20410.0]	NOTICE	Server is reloading now.
+[2017-12-30 23:58:13 $20774.0]	NOTICE	Server is reloading now.
+[2017-12-30 23:58:23 $20774.0]	NOTICE	Server is reloading now.
+[2017-12-30 23:58:54 $20851.0]	NOTICE	Server is reloading now.
+[2017-12-30 23:59:25 $20921.0]	NOTICE	Server is reloading now.
+[2017-12-31 00:00:36 $21036.0]	NOTICE	Server is reloading now.
+[2017-12-31 00:00:48 $21036.0]	NOTICE	Server is reloading now.
+[2017-12-31 00:00:49 $21036.0]	NOTICE	Server is reloading now.
+[2017-12-31 00:02:01 $21111.0]	NOTICE	Server is reloading now.
+[2017-12-31 00:12:37 $21213.0]	NOTICE	Server is reloading now.

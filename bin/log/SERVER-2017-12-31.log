@@ -1,0 +1,5 @@
+[2017-12-31 00:00:21] SD.ERROR: WORKER Error Use of undefined constant SWOOLE_SSL - assumed 'SWOOLE_SSL' (/var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:155) [] []
+[2017-12-31 00:00:24] SD.ERROR: WORKER Error Undefined index: userinfo (/var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/CoreBase/HttpInput.php:155) [] []
+[2017-12-31 00:00:29] SD.ERROR: WORKER Error Undefined index: PHPSESSID (/var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/CoreBase/HttpInput.php:155) [] []
+[2017-12-31 00:00:53] SD.ERROR: WORKER Error Use of undefined constant SWOOLE_SSL - assumed 'SWOOLE_SSL' (/var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:155) [] []
+[2017-12-31 00:02:15] SD.ERROR: WORKER Error Use of undefined constant SWOOLE_SSL - assumed 'SWOOLE_SSL' (/var/www/html/github/sdweb/vendor/tmtbe/swooledistributed/src/Server/SwooleServer.php:155) [] []

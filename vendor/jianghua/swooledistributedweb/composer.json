@@ -1,0 +1,35 @@
+{
+  "require": {
+    "tmtbe/swooledistributed":"2.7.*"
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  },
+ "autoload": {
+    "files": [
+        "src/Web/Helpers/Funcs/Common.php"
+    ],
+    "psr-4": {
+      "SwooleDistributedWeb\\Server\\": "src/Server",
+      "SwooleDistributedWeb\\app\\": "src/app",
+      "Web\\": "src/Web",
+      "app\\": "src/app",
+      "test\\": "src/test"
+    }
+  },
+  "authors": [
+    {
+      "name": "jianghua",
+      "email": "380688162@qq.com",
+      "homepage": "https://github.com/jianghua"
+    }
+  ],
+  "name": "jianghua/swooledistributedweb",
+  "type": "library",
+  "keywords": ["server", "swoole", "distributed", "web"],
+  "description": "swooledistributed web",
+  "license": "MIT"
+}
